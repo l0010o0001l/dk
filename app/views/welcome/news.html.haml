@@ -1,0 +1,12 @@
+- provide(:title, 'News')
+%h1 News
+#fb-root
+.container
+  .row
+    .col-md-2
+      %a.twitter-timeline{"data-widget-id" => "487004365853454336", :height => "400", :href => "https://twitter.com/DJKamikaze_", :width => "350"}
+      :javascript
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      .fb-like-box{"data-colorscheme" => "light", "data-header" => "false", "data-height" => "350", "data-href" => "https://www.facebook.com/pages/DJ-Kamikaze/230957930288365", "data-show-border" => "true", "data-show-faces" => "true", "data-stream" => "false", "data-width" => "175"}
+    .col-md-9.well
+      %h3 Coming Soon...
